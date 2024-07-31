@@ -1,0 +1,22 @@
+.text {
+    display: inline-block;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    animation:
+        typing 1.5s steps(18) forwards,
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    to {
+        max-width: 100%;
+    }
+}
