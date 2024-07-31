@@ -1,8 +1,7 @@
-import { supabase } from '../client';
 import { Creator } from '../App';
 import { useParams } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import YouTube from "../assets/youtube.png"
 import Twitter from "../assets/twitter.png"
 import Instagram from "../assets/instagram.png"
